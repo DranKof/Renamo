@@ -57,7 +57,7 @@
                 currentIndex += 1
             Next
         Catch ex As Exception
-
+            MsgBox("File system rename error:" & vbNewLine & ex.Message)
         End Try
     End Sub
 End Class
